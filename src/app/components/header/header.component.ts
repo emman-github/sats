@@ -63,8 +63,9 @@ export class HeaderComponent implements OnInit {
         }, {
           text: 'Yes',
           id: 'confirm-button',
-          handler: async() => {  
-            await this.navController.navigateRoot(`/login`);
+          handler: async() => {   
+            window.location.href="/";
+            // await this.navController.navigateRoot(`/login`);
           }
         }
       ]
