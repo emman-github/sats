@@ -1,0 +1,32 @@
+ion-menu {
+	margin-top: 56px;
+}
+
+ion-thumbnail, ion-img {
+	width: 24px;
+  height: 24px;
+} 
+
+ion-label {   
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;  
+	color: #000000;
+}
+
+ion-content {
+	--padding-top: 25px;
+}
+
+ion-item {
+	--padding-start: 25px; 
+}
+
+ion-footer {
+	ion-img {
+		width: 100px;
+        height: 37px;
+        margin: 0 auto;
+        margin-bottom: 30px
+	}
+}

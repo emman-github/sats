@@ -1,0 +1,26 @@
+    .input-container ion-input {
+      width: 330px;
+      height: 41px;
+      left: 0px; 
+      background: #FFFFFF;
+      border: 1px solid #AAAAAA;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      --padding-start: 10px;
+    }
+    #submit-button { 
+      width: 330px;
+      height: 46px; 
+      --background: #B5121B;
+      border-radius: 4px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 29px;
+      color: #FFFFFF;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }

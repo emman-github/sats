@@ -24,3 +24,78 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-content {
+    --padding-top: 15px;
+    --padding-end: 15px;
+    --padding-bottom: 15px; 
+    --padding-start: 15px;
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('assets/font/hind-siliguri/HindSiliguri-SemiBold.eot');
+    src: local('Hind Siliguri SemiBold'), local('HindSiliguri-SemiBold'),
+        url('assets/font/hind-siliguri/HindSiliguri-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/hind-siliguri/HindSiliguri-SemiBold.woff2') format('woff2'),
+        url('assets/font/hind-siliguri/HindSiliguri-SemiBold.woff') format('woff'),
+        url('assets/font/hind-siliguri/HindSiliguri-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('assets/font/hind-siliguri/HindSiliguri-Light.eot');
+    src: local('Hind Siliguri Light'), local('HindSiliguri-Light'),
+        url('assets/font/hind-siliguri/HindSiliguri-Light.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/hind-siliguri/HindSiliguri-Light.woff2') format('woff2'),
+        url('assets/font/hind-siliguri/HindSiliguri-Light.woff') format('woff'),
+        url('assets/font/hind-siliguri/HindSiliguri-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('assets/font/hind-siliguri/HindSiliguri-Regular.eot');
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'),
+        url('assets/font/hind-siliguri/HindSiliguri-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/hind-siliguri/HindSiliguri-Regular.woff2') format('woff2'),
+        url('assets/font/hind-siliguri/HindSiliguri-Regular.woff') format('woff'),
+        url('assets/font/hind-siliguri/HindSiliguri-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('assets/font/hind-siliguri/HindSiliguri-Medium.eot');
+    src: local('Hind Siliguri Medium'), local('HindSiliguri-Medium'),
+        url('assets/font/hind-siliguri/HindSiliguri-Medium.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/hind-siliguri/HindSiliguri-Medium.woff2') format('woff2'),
+        url('assets/font/hind-siliguri/HindSiliguri-Medium.woff') format('woff'),
+        url('assets/font/hind-siliguri/HindSiliguri-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('assets/font/hind-siliguri/HindSiliguri-Bold.eot');
+    src: local('Hind Siliguri Bold'), local('HindSiliguri-Bold'),
+        url('assets/font/hind-siliguri/HindSiliguri-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/font/hind-siliguri/HindSiliguri-Bold.woff2') format('woff2'),
+        url('assets/font/hind-siliguri/HindSiliguri-Bold.woff') format('woff'),
+        url('assets/font/hind-siliguri/HindSiliguri-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root[mode=ios],
+:root[mode=md]{
+  --ion-font-family: 'Hind Siliguri' !important;
+  font-family: 'Hind Siliguri' !important;
+
+}
+

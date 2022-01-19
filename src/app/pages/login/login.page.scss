@@ -1,0 +1,121 @@
+#logo-img {
+  width: 250px;
+  height: 89px;
+  margin: 0 auto;
+  margin-top: 87px;
+}
+
+#subtitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #666666;     
+  width: 300px;
+  margin: 0 auto; 
+  margin-top: 62px;
+}
+
+.input-container ion-input {
+  width: 300px;
+  height: 41px;
+  left: 0px; 
+  background: #FFFFFF;
+  border: 1px solid #AAAAAA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 24px;
+  --padding-start: 10px;
+}
+
+#send-button { 
+  width: 300px;
+  height: 46px; 
+  --background: #B5121B;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#privacy-policy-and-tc { 
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 16px; 
+  text-align: center;
+  color: #777777;
+  margin-top: 40px;
+}
+
+#privacy-policy-and-tc span {
+  color: #B5121B;;
+}
+
+#mobile-number-code {
+  font-size: 16px;
+  line-height: 26px; 
+  color: #000000;    
+  margin-left: 12px;  
+}
+
+#subtitle span {
+  font-weight: 500;   
+  color: #666666;
+}
+
+#resend-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;  
+  color: #B5121B;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#didnt-receive-code {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 0px;  
+  text-align: center; 
+  color: #666666;
+  margin-top: 40px;
+}
+
+#security-code-grid {
+  padding: 0;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#security-code-grid ion-col {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#security-code-grid ion-col:first-child {
+  padding-left: 0px; 
+}
+
+#security-code-grid ion-col:nth-child(6) {
+  padding-right: 0px; 
+}
+
+#security-code-grid ion-input { 
+  height: 40px; 
+  background: #FFFFFF;
+  border: 1px solid #AAAAAA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  --padding-start: 0px;
+}

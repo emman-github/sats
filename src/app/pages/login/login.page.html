@@ -1,0 +1,44 @@
+<ion-content>
+  <ion-img id="logo-img" src="/assets/pages/login/logo.png"></ion-img> 
+  <div *ngIf="currentStep === 1">
+    <p id="subtitle">Please enter your mobile number to send security code for log in</p>
+    <div class="input-container"> 
+      <ion-input placeholder="XXXXXXXXX" maxlength="10" value="5512357374">
+        <span id="mobile-number-code">+61</span>
+      </ion-input>
+    </div>
+    <ion-button id="send-button" (click)="send()">SEND</ion-button>
+    <p id="privacy-policy-and-tc">By proceeding you accept the <span>Privacy Policy</span> and <span>Terms & Conditions</span></p>
+  </div>
+
+  <div *ngIf="currentStep === 2">
+    <p id="subtitle">Please enter the 6-digit security code that we have sent to
+      <span>+61412718512</span>
+    </p> 
+    <ion-grid id="security-code-grid">
+      <ion-row>
+        <ion-col>
+          <ion-input maxlength="1" value="5"></ion-input> 
+        </ion-col>
+        <ion-col>
+          <ion-input maxlength="1" value="9"></ion-input> 
+        </ion-col>
+        <ion-col>
+          <ion-input maxlength="1" value="4"></ion-input> 
+        </ion-col>
+        <ion-col>
+          <ion-input maxlength="1" value="3"></ion-input> 
+        </ion-col>
+        <ion-col>
+          <ion-input maxlength="1" value="6"></ion-input> 
+        </ion-col>
+        <ion-col>
+          <ion-input maxlength="1" value="6"></ion-input> 
+        </ion-col> 
+      </ion-row>
+    </ion-grid> 
+    <ion-button id="send-button" (click)="login()">LOGIN</ion-button>
+    <p id="didnt-receive-code">Didn’t receive security code?</p>
+    <ion-button id="resend-button" fill="clear" size="small">Resend</ion-button>    
+  </div>
+</ion-content>

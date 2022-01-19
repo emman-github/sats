@@ -1,0 +1,37 @@
+    #contact-us-card {
+      margin: 0;
+    } 
+    #contact-us-card ion-item ion-label p:first-child {
+      font-size: 14px;
+      line-height: 23px;
+      color: #666666;
+    }
+    #contact-us-card ion-item ion-label p:nth-child(2) {
+      font-size: 12px;
+      line-height: 19px;
+      color: #666666;
+    }
+    #contact-us-card ion-item ion-thumbnail, #contact-us-card ion-item ion-thumbnail ion-img {
+      width: 20px;
+      height: 20px;
+    }
+    #call-now-button { 
+      width: 95px;
+      height: 30px;  
+      --background: #B5121B;
+      border-radius: 4px;
+      display: block;
+      margin: 0 auto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 19px;
+      margin-bottom: 15px;
+      margin-top: 12px;
+    }
+    #contact-us-header ion-label {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 26px;  
+      color: #333333;
+    }

@@ -1,0 +1,21 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar id="main-header">
+    <ion-buttons slot="start"> 
+      <ion-menu-button color="light"></ion-menu-button> 
+      <ion-button size="large" (click)="openHomePage()">
+        <ion-img src="/assets/components/header/home.png"></ion-img>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button size="large" (click)="openMessagesPage()">
+        <ion-img src="/assets/components/header/messages.png"></ion-img>
+      </ion-button>
+      <ion-button (click)="logout()" class="name-button">
+        DANIEL
+      </ion-button> 
+    </ion-buttons>
+  </ion-toolbar> 
+  <ion-toolbar id="sub-header" class="ion-no-border" *ngIf="pageTitle">
+    <ion-title id="page-title">{{ pageTitle }}</ion-title>
+  </ion-toolbar>
+</ion-header> 

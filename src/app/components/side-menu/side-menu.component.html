@@ -1,0 +1,19 @@
+<ion-menu
+  id="side-menu"
+  side="start"
+  contentId="main-content"
+  autoHide="false">
+  <ion-content>
+    <ion-item *ngFor="let item of menuItems" lines="none" (click)="openPage(item.link)"> 
+      <ion-thumbnail slot="start">
+        <ion-img [src]="item.icon"></ion-img>
+      </ion-thumbnail>
+      <ion-label>{{ item.label }}</ion-label>
+    </ion-item>
+  </ion-content>
+  <ion-footer class="ion-no-border">
+    <ion-toolbar>
+      <ion-img src="/assets/components/side-menu/logo.png"></ion-img>
+    </ion-toolbar>
+  </ion-footer>
+</ion-menu>

@@ -1,5 +1,7 @@
 {
   "name": "sats",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
